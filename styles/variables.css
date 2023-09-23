@@ -1,4 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --text-accent-color: #000028;
+  --main-text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --text-accent-bg-color: #FF0070;
+  --text-heading-color: #000028;
+  --main-heading-color: #DB00FF;
+  --main-fonts-family: "IBM Plex Mono";
+  --main-padding: 20px;
+  --decorated-element_visibility: visible;
+}
+
+@media (max-width: 500px) {
+  :root {
+    --main-padding: 10px;
+  }
+}
