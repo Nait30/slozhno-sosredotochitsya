@@ -13,8 +13,6 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
-
-
 .header {
   position: relative;
   display: grid;
@@ -28,17 +26,13 @@
   height: 100vh;
 }
 
-@media (max-width:376px) {
+@media (max-width: 376px) {
   .header {
     grid-template-areas:
       "menu menu"
       "logo logo"
       "headerText headerText";
   }
-}
-
-@media (min-width: 768px) {
-  
 }
 
 header::before {
@@ -155,7 +149,7 @@ header::after {
 
 .logo {
   text-shadow: 4px 4px 0px #ff0070;
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%;
@@ -211,7 +205,6 @@ header::after {
   gap: 20px;
 }
 
-
 .section-title {
   font-size: 18px;
   font-style: normal;
@@ -236,12 +229,11 @@ header::after {
 }
 
 @media (min-width: 769px) {
-
-.section_what-prevents {
-  grid-template-areas:
-    "title . ."
-    "multitasking food gadgets";
-}
+  .section_what-prevents {
+    grid-template-areas:
+      "title . ."
+      "multitasking food gadgets";
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -256,33 +248,32 @@ header::after {
 }
 
 @media (min-width: 376px) {
-.section_what-prevents__title {
-  grid-area: title;
-}
- 
-@media (max-width: 376px) {
+  .section_what-prevents__title {
+    grid-area: title;
+  }
 
-}
+  @media (max-width: 376px) {
+  }
 
-.section_what-prevents {
-  margin-bottom: 80px;
-}
+  .section_what-prevents {
+    margin-bottom: 80px;
+  }
 
-.section_what-prevents__article {
-  margin-bottom: 0;
-}
+  .section_what-prevents__article {
+    margin-bottom: 0;
+  }
 
-.section_what-prevents__title__multitasking {
-  grid-area: multitasking;
-}
+  .section_what-prevents__title__multitasking {
+    grid-area: multitasking;
+  }
 
-.section_what-prevents__title__food {
-  grid-area: food;
-}
+  .section_what-prevents__title__food {
+    grid-area: food;
+  }
 
-.section_what-prevents__title__gadgets {
-  grid-area: gadgets;
-}
+  .section_what-prevents__title__gadgets {
+    grid-area: gadgets;
+  }
 }
 
 .section__what-helping {
@@ -346,7 +337,6 @@ header::after {
     grid-row: 4/5;
   }
 }
-
 
 .footer {
   height: 100vh;

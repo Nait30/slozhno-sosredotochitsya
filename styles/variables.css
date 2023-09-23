@@ -1,10 +1,10 @@
 :root {
   --text-accent-color: #000028;
-  --main-text-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --text-accent-bg-color: #FF0070;
+  --main-text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --text-accent-bg-color: #ff0070;
   --text-heading-color: #000028;
-  --main-heading-color: #DB00FF;
+  --main-heading-color: #db00ff;
   --main-fonts-family: "IBM Plex Mono";
   --main-padding: 20px;
   --decorated-element_visibility: visible;
