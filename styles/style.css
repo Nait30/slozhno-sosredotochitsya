@@ -252,9 +252,6 @@ header::after {
     grid-area: title;
   }
 
-  @media (max-width: 376px) {
-  }
-
   .section_what-prevents {
     margin-bottom: 80px;
   }
