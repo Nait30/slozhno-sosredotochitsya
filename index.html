@@ -8,8 +8,8 @@
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
@@ -17,7 +17,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header__decorated-element">rec</div>
+      <div class="header__decorated-element" aria-hidden="true">rec</div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -55,7 +55,7 @@
         <h2 class="section_about-why__title section-title">
           Почему сосредоточиться так сложно
         </h2>
-        <section class="section_about-why__main-text">
+        <div class="section_about-why__main-text">
           <article>
             <h3 class="accent_heading">Многозадачность</h3>
             <p class="article_text">
@@ -87,7 +87,7 @@
               отвлекаешься, тем больше удовольствия получаешь.
             </p>
           </article>
-        </section>
+        </div>
       </section>
       <section class="section section_what-prevents">
         <h2 class="section-title section_what-prevents__title">
@@ -129,13 +129,13 @@
         </article>
       </section>
       <section class="section section__what-helping">
-        <h2 class="section-title">
+        <h2 class="section-title section__what-helping__main-title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
         <article class="section__what-helping__article">
           <h3 class="accent_heading section__what-helping_title">5 простых (на самом деле не очень) советов</h3>
-          <article>
+          <div>
             <h4 class="accent_heading section__what-helping_article-title">Представьте небо и облака</h4>
             <p class="article_text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
@@ -147,8 +147,8 @@
               вернуться в настоящий момент, а не волноваться о потенциальных
               проблемах из будущего.
             </p>
-          </article>
-          <article>
+          </div>
+          <div>
             <h4 class="accent_heading section__what-helping_article-title">Включите музыку</h4>
             <p class="article_text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
@@ -156,8 +156,8 @@
               Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
               попробовать включить плейлист в «белым шумом» или нейромузыкой.
             </p>
-          </article>
-          <article>
+          </div>
+          <div>
             <h4 class="accent_heading section__what-helping_article-title">Прогуляйтесь</h4>
             <p class="article_text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
@@ -169,8 +169,8 @@
               работать. Но и простая двадцатиминутная прогулка — тоже отличный
               вариант.
             </p>
-          </article>
-          <article>
+          </div>
+          <div>
             <h4 class="accent_heading section__what-helping_article-title">Хорошо ешьте</h4>
             <p class="article_text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
@@ -178,8 +178,8 @@
               высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
               чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
             </p>
-          </article>
-          <article>
+          </div>
+          <div>
             <h4 class="accent_heading section__what-helping_article-title">Читайте</h4>
             <p class="article_text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
@@ -187,16 +187,16 @@
               даже секунд. А вот интересная книга способна затянуть и на
               несколько часов и круто тренирует направленное внимание.
             </p>
-          </article>
+          </div>
         </article>
       </section>
       <section class="section pictures_section">
         <h2 class="accent_heading pictures_section__title">А можно в картинках?</h2>
-        <img class="pictures_section__item pictures_section__sunset" src="./images/sunset.png" alt="Закат">
-        <img class="pictures_section__item pictures_section__ice-cream" src="./images/ice-cream.png" alt="Мороженое">
-        <img class="pictures_section__item pictures_section__tape" src="./images/tape.png" alt="Аудиокасета и плеер">
-        <img class="pictures_section__item pictures_section__books" src="./images/books.png" alt="Стопка книг, на ней чашка кофе">
-        <img class="pictures_section__item pictures_section__street" src="./images/street.png" alt="Пустая городская улица">
+        <img class="pictures_section__item" src="./images/sunset.png" alt="Закат">
+        <img class="pictures_section__item" src="./images/ice-cream.png" alt="Мороженое">
+        <img class="pictures_section__item" src="./images/tape.png" alt="Аудиокасета и плеер">
+        <img class="pictures_section__item" src="./images/books.png" alt="Стопка книг, на ней чашка кофе">
+        <img class="pictures_section__item" src="./images/street.png" alt="Пустая городская улица">
       </section>
     </main>
     <footer class="footer">
